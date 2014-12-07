@@ -10,7 +10,10 @@ namespace DiagnosticTest
     {
         public static void Method2()
         {
-            Program.Method(5, out var x, out var y, 10);
+            int x;
+            int y;
+
+            Program.Method(5, out x, out y, 10);
         }
     }
 }

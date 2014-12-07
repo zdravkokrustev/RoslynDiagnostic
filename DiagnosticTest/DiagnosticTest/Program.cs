@@ -16,7 +16,10 @@ namespace DiagnosticTest
 
         public static void Main(string[] args)
         {
-            Method(5, out var x, out var y, 10);
+            int x;
+            int y;
+
+            Method(5, out x, out y, 10);
 
             Console.WriteLine("x = {0}, y = {1}", x, y);
         }
